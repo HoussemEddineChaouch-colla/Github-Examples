@@ -1,0 +1,33 @@
+# Local .terraform directories (contains provider plugins and modules)
+**/.terraform/*
+
+# .tfstate files contain sensitive backend data and secrets
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all variable files since they often contain secrets/passwords
+*.tfvars
+*.tfvars.json
+
+# OR if you store public variables in terraform.tfvars, only exclude auto and sensitive ones:
+# *.auto.tfvars
+# secret.tfvars
+
+# Ignore override files as they are meant for local testing changes
+*.tfoverride
+*.tfoverride.json
+
+# Include override files you do wish to add to version control using negated pattern
+# !override.tf
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore environment-specific files (e.g., direnv, local env setups)
+.env
+.envrc
