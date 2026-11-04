@@ -1,3 +1,7 @@
-## Welcom to the secret submissions
-
-submit to secret : 
+---
+name: Secret Report
+about: Secret unexpected behavior
+title: "[SECRET] "
+labels: secret
+assignees: ''
+---
